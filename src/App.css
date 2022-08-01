@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+button {
+  margin: 20px 0;
+}
+
+img {
+  display: block;
+}
+
+span.text-top, span.text-bottom {
+  display: block;
+  position: absolute;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
+}
+span.text-top {
+  top: 5%;
+}
+
+span.text-bottom {
+  bottom: 5%;
+}
